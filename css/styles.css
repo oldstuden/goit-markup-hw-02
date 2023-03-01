@@ -27,8 +27,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33; /* 24/18 */
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
@@ -43,16 +41,17 @@ body {
   line-height: 1.5; /* 24/16 */
   letter-spacing: 0.02em;
 }
-.menu-adress-item a {
+.menu-adress-link {
   font-weight: 400;
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5; /* 24/16 */
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
 .menu-link:hover,
 .menu-link:focus,
-.menu-adress-item:hover a {
+.menu-adress-link:hover {
   color: var(--activ-focus-color);
 }
 /* ------------------section Hero----------------- */
@@ -145,7 +144,7 @@ body {
 }
 .footer-text {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5; /* 24/16 */
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
